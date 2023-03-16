@@ -13,6 +13,8 @@ Por ejemplo, podemos usar el patrón Factory para crear un objeto Builder y lueg
 Esta combinación de patrones puede ser especialmente útil en situaciones en las que necesitamos crear objetos complejos con diferentes configuraciones y opciones, y queremos hacerlo de una manera más genérica y escalable.
 
 ---
+
+```mermaid
       classDiagram
       Main "1" *-- "1..*" BuilderPizza : association
       class Main{
@@ -30,5 +32,7 @@ Esta combinación de patrones puede ser especialmente útil en situaciones en la
         +setters()
         +getters()
       }
+      
+```
       
 
